@@ -41,7 +41,7 @@ public class DefaultDeck
 	 * @param cards	The card collection used to initialize the deck.
 	 */
 	public DefaultDeck(Collection<Card> cards) {
-		this(new ArrayList<Card>(), new Random());
+		this(cards, new Random());
 	}
 		
 	/**

@@ -1,11 +1,9 @@
 package mts.cards;
 
 import static org.junit.Assert.*;
-
-import org.junit.Before;
 import org.junit.Test;
 
-public class RankTest {
+public class RankTests {
 	
 	@Test
 	public void Ace_has_correct_properties_defined() {

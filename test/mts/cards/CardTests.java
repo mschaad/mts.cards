@@ -1,8 +1,6 @@
 package mts.cards;
 
 import static org.junit.Assert.*;
-
-import org.junit.Before;
 import org.junit.Test;
 
 public class CardTests {
@@ -22,7 +20,7 @@ public class CardTests {
 
 	@Test(expected=IllegalArgumentException.class)
 	public void When_ctor_called_with_null_Suit_Then_throws_IllegalArgumentException() {
-		Card card = new Card(Rank.Ace, null);
+		new Card(Rank.Ace, null);
 	}
 	
 	@Test
